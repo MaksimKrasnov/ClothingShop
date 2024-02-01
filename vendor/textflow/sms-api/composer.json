@@ -1,0 +1,35 @@
+{
+    "name": "textflow/sms-api",
+    "description": "PHP library that helps you send SMS using TextFlow API",
+    "keywords": [
+        "sms-api",
+        "api-client",
+        "api",
+        "text-message",
+        "simple-sms",
+        "sms-verification",
+        "sms"
+    ],
+    "authors": [
+        {
+            "name": "TextFlow",
+            "email": "admin@textflow.me"
+        }
+    ],
+    "support": {
+        "email": "support@textflow.me"
+    },
+    "readme": "README.md",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\": "src"
+        },
+        "classmap": [
+            "src/TextFlowClient.php"
+        ]
+    }
+}
